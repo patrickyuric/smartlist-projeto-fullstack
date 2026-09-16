@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart List - Login</title>
+
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <header class="boxTop">
+        <img src="assets/images/logo.png" alt="Smart List Logo">
+        <h1>Smart List</h1>
+    </header>
+
+    <main class="container">
+        <h2>Login</h2>
+        <div class="login">
+            <form>
+                <div class="form-group">
+                    <label for="email">E-MAIL <i class="bi bi-envelope-fill text-muted"></i></label>
+                    <input type="email" id="email" name="email" required>
+                    <iconify-icon name="email" class="email-icon"></iconify-icon>
+                </div>
+                <div class="form-group">
+                    <label for="password">SENHA <i class="bi bi-lock-fill text-muted"></i></label>
+
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" onclick="realizarLogin()">Entrar</button>
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="window.location.href='cadastro.html'" class="btnSecondary">Novo Cadastro</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Projeto Full Stack 3ºC - Desenvolvimento de Sistemas - 2026 </p>
+    </footer>
+
+    <script src="assets/js/login.js"></script>
+</body>
+
+</html>

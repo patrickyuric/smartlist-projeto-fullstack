@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+--primary: #007bff;
+--skyblue: #9cccff;
+--secondary: #6c757d;
+--warning: #ffc107;
+--danger: #dc3545;
+--gray: #6c757d;
+--light: #f8f9fa;
+--dark: #343a40;
+}
+
+html, body {
+    font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo Cabeçalho */
+
+header {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.boxTop {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: Center;
+}
+
+/* Estilo Rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 100px;
+    max-height: 150px;
+}

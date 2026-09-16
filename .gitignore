@@ -1,0 +1,38 @@
+# -------------------------------------------------------------------
+# ARQUIVOS DO BACKEND (Node.js / Express)
+# -------------------------------------------------------------------
+
+# Dependências (O Git não precisa subir os pacotes, apenas o package.json)
+api/node_modules/
+node_modules/
+
+# Arquivos de Banco de Dados SQLite (Segurança máxima)
+api/dbsmartlist.sqlite
+api/*.sqlite
+api/*.sqlite3
+api/*.db
+api/*.db-journal
+
+# Arquivos de Log de Erro do NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variáveis de Ambiente (Para quando você configurar tokens e senhas no futuro)
+.env
+api/.env
+
+# -------------------------------------------------------------------
+# ARQUIVOS DO SISTEMA OPERACIONAL E EDITOR
+# -------------------------------------------------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Configurações locais do VS Code
+.vscode/
